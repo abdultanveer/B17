@@ -12,9 +12,9 @@ public class Test {
 		snake.eat("eggs");
 		snake.move(5);*/
 		
-		Student abdul;   ///declaration
-		abdul = new Student("ansari");   //instantiation
-		
+		Student abdul;   ///declaration --- in table of contents-- without pg no
+		abdul = new Student("ansari");   //instantiation ---creating the chapter
+		//abdul.name = "";
 		//abdul.setName("ansari");
 		//abdul.name = "ansari";   //initialization
 		

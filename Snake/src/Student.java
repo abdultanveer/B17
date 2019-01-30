@@ -1,26 +1,27 @@
 
 public class Student {
 	public static String COLLEGE_NAME = "IIT";
-	private String name;
+	 String name;
 	private int age;
 	private int id;
 	private int marks;
 	
 	public Student(){} // default constructor --- smith
 	
-	public Student(String sName) { //Dong constructor
-		name = sName;
+	public Student(String name) { //Dong constructor
+		this.name = name;
 	}
 	
-	public Student(String sName, int sAge ) { //sang constructor
-	
-	name = sName;
-	age = sAge;
+	public Student(String sName, int age ) { //sang constructor
+	this("ansari");
+	//name = sName;
+	this.age = age;
 	}
 	
 	
 	//getter is like tap
 	public String getName() {
+		//this.getAge();
 		return name;
 	}
 	//setter is like cap
@@ -46,6 +47,16 @@ public class Student {
 		this.marks = marks;
 	}
 	
+	/**
+	 * other classes can also invoke this method without
+	 * creating an object of this class
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public static int getAverage(int a, int b) {
+		return (a+b)/2;
+	}
 	
 
 }
