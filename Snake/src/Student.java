@@ -5,12 +5,20 @@ public class Student {
 	private int age;
 	private int id;
 	private int marks;
-	public static String getCOLLEGE_NAME() {
-		return COLLEGE_NAME;
+	
+	public Student(){} // default constructor --- smith
+	
+	public Student(String sName) { //Dong constructor
+		name = sName;
 	}
-	public static void setCOLLEGE_NAME(String cOLLEGE_NAME) {
-		COLLEGE_NAME = cOLLEGE_NAME;
+	
+	public Student(String sName, int sAge ) { //sang constructor
+	
+	name = sName;
+	age = sAge;
 	}
+	
+	
 	//getter is like tap
 	public String getName() {
 		return name;

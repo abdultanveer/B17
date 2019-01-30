@@ -1,10 +1,10 @@
 
 public class Test {
 	public static void main(String[] args) {
-		IncomeTax incomeTax;
+		/*IncomeTax incomeTax;
 		incomeTax = new GST();
 		incomeTax.salary = 1000000;
-		System.out.println("the tax for 2019 =" +incomeTax.calculateTax());
+		System.out.println("the tax for 2019 =" +incomeTax.calculateTax());*/
 		
 		
 		
@@ -13,8 +13,9 @@ public class Test {
 		snake.move(5);*/
 		
 		Student abdul;   ///declaration
-		abdul = new Student();   //instantiation
-		abdul.setName("ansari");
+		abdul = new Student("ansari");   //instantiation
+		
+		//abdul.setName("ansari");
 		//abdul.name = "ansari";   //initialization
 		
 		System.out.println("name of student =" + abdul.getName());
