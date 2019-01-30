@@ -12,11 +12,13 @@ public class Test {
 		snake.eat("eggs");
 		snake.move(5);*/
 		
-		/*Student abdul;   ///declaration
+		Student abdul;   ///declaration
 		abdul = new Student();   //instantiation
-		abdul.name = "ansari";   //initialization
+		abdul.setName("ansari");
+		//abdul.name = "ansari";   //initialization
 		
-		System.out.println("name of student =" + abdul.name);*/
+		System.out.println("name of student =" + abdul.getName());
+		//abdul.name);
 		//System.out.println("COLLEGE NAME = "+Student.COLLEGE_NAME);
 		
 	}
