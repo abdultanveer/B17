@@ -1,6 +1,13 @@
+import threads.MyThreadsSync;
 
 public class Test {
 	public static void main(String[] args) {
+		
+		/*MyThreadsSync myThreadsSync;
+		threads.sync.MyThreadSync myThreadSync1;
+		myThreadsSync = new MyThreadsSync();
+		myThreadSync1 = new threads.sync.MyThreadSync();
+		*/
 		/*IncomeTax incomeTax;
 		incomeTax = new GST();
 		incomeTax.salary = 1000000;
@@ -19,6 +26,8 @@ public class Test {
 		//abdul.name = "ansari";   //initialization
 		
 		System.out.println("name of student =" + abdul.getName());
+		abdul = null;
+		System.gc();
 		//abdul.name);
 		//System.out.println("COLLEGE NAME = "+Student.COLLEGE_NAME);
 		

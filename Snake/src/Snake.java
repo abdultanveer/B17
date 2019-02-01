@@ -6,7 +6,7 @@ public class Snake {
 	}
 	
 	public void move(int speed) {
-		Student.getAverage(10, 20);
+		//Student.getAverage(10, 20);
 		//ab is my local variables
 		System.out.println("snake is moving at the speed"+speed);
 	}
